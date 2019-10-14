@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/purple</color>
+    <color name="colorPrimaryDark">@color/darkPurple</color>
+    <color name="colorAccent">@color/palePurple</color>
+    <color name="background">@color/lightGrey</color>
+
+    <!-- Palette -->
+
+    <color name="purple">#7473BD</color>
+    <color name="darkPurple">#565C98</color>
+    <color name="palePurple">#A6A2DC</color>
+    <color name="lightGrey">#EFEFEF</color>
+</resources>

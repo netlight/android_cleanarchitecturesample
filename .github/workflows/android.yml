@@ -1,0 +1,25 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v1
+      - name: "Setup permissions"
+        run: "chmod +x gradlew"
+      - name: "Debug: Build"
+        run: ./gradlew :app:assembleDebug
+      - name: "Debug: Unit Test"
+        run: ./gradlew :app:testDebugUnitTest
+      - name: "Debug: Lint"
+        run: ./gradlew :app:lintDebug
+      - name: "Debug: Upload artifact"
+        uses: actions/upload-artifact@master
+        with:
+          name: app-debug.apk
+          path: app/build/outputs/apk/debug/

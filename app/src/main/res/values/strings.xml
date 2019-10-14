@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CleanArchitectureSample</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_task">Create Task</string>
+    <string name="help_me_decide">Should I?</string>
+    <string name="no_tasks">No tasks available, go write one!</string>
+    <string name="task_title">Title of your task</string>
+</resources>

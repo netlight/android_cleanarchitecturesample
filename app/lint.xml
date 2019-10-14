@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+
+    <!-- We are not getting accessibility covered yet -->
+    <issue id="ContentDescription" severity="ignore" />
+
+</lint>
