@@ -24,6 +24,10 @@ Clean architecture sample of an Android app
 
 - MockK
 
+#### Used API:
+
+- Yes Or No? foolproof™ decision-making: https://yesno.wtf
+
 
 
 ##### License
